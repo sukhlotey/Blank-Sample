@@ -45,10 +45,11 @@ h1 {
     float: left;
     margin-top: 13px;
     color: antiquewhite;
-    transition: 0.4s;
+    transition: transform 2s;
 }
 
 h1:hover {
+    transform: rotate(360deg);
     color: black;
 }
 
